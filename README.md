@@ -29,12 +29,19 @@ Brief description of the project.
     ```
 5. Install the dependencies
     ```
-    nom install
+    npm install
     ```
 
 ## Usage
 
-To run the project, use the following command, first in the db2_api directory and then in the db2_front directory:
+To run the project, use the following command: 
+
+1. To start the red container, use the following command:
+``` bash
+docker-compose up
+```
+
+2. First in the db2_api directory and then in the db2_front directory:
 ```bash
 npm run dev
 ```
